@@ -8,12 +8,13 @@
   gap: 2em;
 
   .link {
-    font-family: var(--font-humane);
-    font-weight: 300;
-    font-size: 3rem;
-    letter-spacing: 2px;
+    font-family: var(--font-reglo);
+    font-weight: 700;
+    font-size: 2rem;
     color: #ffffff97;
     transition: color 0.3s ease;
+
+    text-transform: uppercase;
 
     &.active {
       color: #fff;

@@ -23,18 +23,8 @@
 
       font-family: var(--font-humane);
       font-weight: 400;
-      font-size: 5rem;
-      font-size: clamp(
-        5rem,
-        -4.9710982658959555rem + 27.745664739884397vw,
-        20rem
-      );
+      font-size: 20rem;
       letter-spacing: 2rem;
-      letter-spacing: clamp(
-        1rem,
-        -4.9710982658959555rem + 27.745664739884397vw,
-        2rem
-      );
       line-height: normal;
 
       color: #fff;

@@ -4,10 +4,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2em;
+  gap: 1rem;
 
   p {
-    font-family: var(--font-sf-mono);
+    font-family: sans-serif;
+    line-height: 150%;
     font-weight: 400;
     font-size: 1rem;
     color: #fff;
@@ -19,7 +20,8 @@
     font-family: var(--font-reglo);
     width: 100%;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 3rem;
+    font-size: clamp(3rem, 1.6705202312138727rem + 3.6994219653179194vw, 5rem);
     letter-spacing: 0.3rem;
     text-align: center;
     color: #fff;
@@ -27,13 +29,20 @@
   }
 }
 
+.à-propos {
+  width: 100ch;
+  width: clamp(40ch, 10ch + 50vw, 100ch);
+}
+
 .sections-container {
   width: 100%;
   height: fit-content;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 3rem;
 
   border-top: 1px solid #ffffff0a;
   padding-top: 3rem;

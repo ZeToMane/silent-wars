@@ -85,3 +85,27 @@
     margin-top: 3rem;
   }
 }
+
+@media (max-width: 575px) {
+  .Slider {
+    .sidebar {
+      flex-direction: column;
+    }
+
+    .poster {
+      .poster-image {
+        object-fit: contain;
+        transition: filter 0.3s ease;
+
+        filter: saturate(0);
+
+        &.active {
+          &:hover {
+            filter: saturate(1);
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

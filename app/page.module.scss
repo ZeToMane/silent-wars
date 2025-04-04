@@ -30,11 +30,7 @@
         20rem
       );
       letter-spacing: 2rem;
-      letter-spacing: clamp(
-        1rem,
-        -4.9710982658959555rem + 27.745664739884397vw,
-        2rem
-      );
+      letter-spacing: clamp(1rem, -4.9710982658959555rem + 22.7457vw, 2rem);
       line-height: normal;
 
       color: #fff;

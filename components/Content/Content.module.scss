@@ -24,6 +24,7 @@
 
   .content {
     width: 100ch;
+    width: clamp(45ch, 10ch + 50vw, 100ch);
     height: fit-content;
 
     position: relative;
@@ -63,5 +64,11 @@
     color: #fff;
     text-transform: uppercase;
     margin-top: 3rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .poster {
+    width: 70%;
   }
 }

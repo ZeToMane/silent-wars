@@ -4,15 +4,21 @@ import css from "./Content.module.scss";
 
 import Image from "next/image";
 
-export function Content() {
+type contentProps = {
+  data: any;
+  lang: "fr" | "en";
+};
+
+export function Content({ data, lang }: contentProps) {
+  console.log("data inside content component: ", data);
   return (
     <div className={css.Slider}>
       <div className={css.content}>
         {/* <h2>LES CRIS DE KHARTOUM</h2> */}
         <div className={clsx(css["poster"])}>
           <Image
-            src="/affiches/Soudan.webp"
-            alt="Affiche du film Les Cris de Khartoum"
+            src={`${data.src}`}
+            alt={`Affiche du film ${data.titre}`}
             fill
             className={clsx(css["poster-image"])}
           />
@@ -21,15 +27,15 @@ export function Content() {
         <iframe
           width="100%"
           height="500"
-          src="https://www.youtube.com/embed/R_EYx8CnTxk"
-          title="Les Cris de Khartoum - Bande annonce officielle"
+          src={`${data.youtube}`}
+          title={`${data.titre} - Bande annonce officielle`}
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
 
-        <div className={clsx(css["text"])}>
+        {/* <div className={clsx(css["text"])}>
           <p>
             Depuis 2023, le Soudan est plongé dans une guerre fratricide qui
             oppose l’armée nationale aux forces paramilitaires. Une lutte de
@@ -53,12 +59,17 @@ export function Content() {
             l’incertitude, quand même l’exil devient un risque, une question
             demeure : que reste-t-il à espérer, lorsque tout s’effondre ?
           </p>
-        </div>
-
-        <h2>CONTEXTE</h2>
+        </div> */}
+        {lang == "fr" ? <h2>CONTEXTE</h2> : <h2>CONTEXT</h2>}
+        {/* <h2>CONTEXTE</h2> */}
 
         <div className={clsx(css["text"])}>
-          <p>
+          {(Object.values(data.paragraphes) as string[]).map(
+            (paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            )
+          )}
+          {/* <p>
             Depuis avril 2023, le Soudan est plongé dans une guerre civile
             sanglante opposant l'armée nationale (SAF) aux Forces de soutien
             rapide (RSF), une puissante milice paramilitaire. Ce conflit trouve
@@ -93,7 +104,30 @@ export function Content() {
             communauté internationale reste spectatrice. La guerre continue,
             laissant derrière elle un pays en ruines et un peuple abandonné à
             son sort.
-          </p>
+          </p> */}
+        </div>
+
+        <h2>SOURCES</h2>
+        <div className={clsx(css["text"])}>
+          {data.sources && data.sources.length > 0 && (
+            <>
+              <ul>
+                {data.sources.map(
+                  (source: { title: string; url: string }, index: number) => (
+                    <li key={index}>
+                      <a
+                        href={source.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {source.title}
+                      </a>
+                    </li>
+                  )
+                )}
+              </ul>
+            </>
+          )}
         </div>
       </div>
     </div>

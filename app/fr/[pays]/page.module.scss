@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+  padding: 0 2rem;
+
+  margin-bottom: 2rem;
+
+  .header-container {
+    width: 100%;
+    text-align: center;
+
+    border-bottom: 1px solid #ffffff0a;
+
+    h1 {
+      display: inline-block;
+
+      font-family: var(--font-humane);
+      font-weight: 400;
+      font-size: 20rem;
+      letter-spacing: 2rem;
+      line-height: normal;
+
+      color: #fff;
+    }
+  }
+}

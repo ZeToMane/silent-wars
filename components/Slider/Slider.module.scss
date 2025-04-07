@@ -31,7 +31,7 @@
     position: relative;
 
     &:not(.active)::after {
-      content: "À venir ...";
+      content: "...";
       position: absolute;
       inset: 0;
       background: rgba(0, 0, 0, 0.6); // semi-transparent overlay

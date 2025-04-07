@@ -1,0 +1,298 @@
+{
+  "fr": [
+    {
+      "about": [
+        {
+          "titre": "à propos",
+          "paragraphes": {
+            "p1": "Certaines guerres font rage dans le silence. Elles frappent le Soudan, la Birmanie, la RDC, le Yémen ou encore le Cameroun, mais restent absentes des médias.",
+            "p2": "À travers ce projet, nous avons choisi de les mettre en lumière. Cinq conflits parmi tant d’autres, trop souvent ignorés.",
+            "p3": "Pour attirer l’attention, nous avons détourné les codes du cinéma. En montant de fausses bandes-annonces à partir de films existants, nous créons une illusion… qui bascule rapidement dans la réalité. À la fin de chaque vidéo, un message rappelle : ce n’est pas un film.",
+            "p4": "Sur ce site, vous trouverez nos vidéos, nos affiches, et des ressources pour comprendre ces guerres oubliées. Parce que l’indifférence ne doit plus être une option."
+          },
+          "credits": "crédits"
+        }
+      ],
+      "soudan": [
+        {
+          "pays": "soudan",
+          "titre": "Les Cris de Khartoum",
+          "src": "/affiches/Soudan.webp",
+          "youtube": "https://www.youtube.com/embed/R_EYx8CnTxk",
+          "dates": "Depuis avril 2023",
+          "bilan_morts": "Plus de 13 000 morts",
+          "disponible": "active",
+          "paragraphes": {
+            "p1": "Depuis avril 2023, le Soudan est plongé dans une guerre civile sanglante opposant l'armée nationale (SAF) aux Forces de soutien rapide (RSF), une puissante milice paramilitaire. Ce conflit trouve ses racines dans les rivalités de pouvoir entre le général Abdel Fattah al-Burhan, chef de l'armée, et Mohamed Hamdan Dagalo, alias “Hemedti”, leader des RSF.",
+            "p2": "Dès les premiers jours, la capitale Khartoum devient un véritable champ de bataille. Les bombardements, les combats de rue et les exécutions sommaires transforment la ville en ruines.",
+            "p3": "Progressivement, la guerre s’étend aux autres régions, notamment au Darfour, où les RSF sont accusées de massacres ethniques rappelant les horreurs des années 2000.",
+            "p4": "Les civils sont pris au piège dans une spirale de violence. Plus de 8 millions de personnes sont déplacées, la famine menace, et l’accès aux soins devient quasi inexistant.",
+            "p5": "Les tentatives de médiation échouent, et la communauté internationale reste spectatrice. Le pays sombre dans l’anarchie."
+          },
+          "sources": [
+            {
+              "title": "L'ONU alerte sur l'effondrement du Soudan",
+              "url": "https://news.un.org/fr/story/2024/04/1144801"
+            },
+            {
+              "title": "Urgence Soudan : des millions d’enfants en danger | UNICEF",
+              "url": "https://www.unicef.fr/article/urgence-soudan-des-millions-denfants-en-danger/"
+            },
+            {
+              "title": "Guerre au Soudan : que se passe-t-il ? | BBC Afrique",
+              "url": "https://www.bbc.com/afrique/articles/c774e16xd1ko"
+            }
+          ]
+        }
+      ],
+      "yemen": [
+        {
+          "pays": "yémen",
+          "titre": "Les Cris de Yémen",
+          "src": "/affiches/Yemen.webp",
+          "youtube": "",
+          "dates": "Depuis 2014",
+          "bilan_morts": "Environ 377 000 morts (directs et indirects)",
+          "disponible": "",
+          "paragraphes": {
+            "p1": "Le conflit au Yémen a éclaté en 2014 lorsque les rebelles houthis, soutenus par l’Iran, ont pris le contrôle de la capitale Sanaa, forçant le gouvernement reconnu internationalement à fuir.",
+            "p2": "En 2015, une coalition menée par l’Arabie saoudite est intervenue militairement pour rétablir le gouvernement en place. Depuis, le pays est ravagé par une guerre qui a plongé des millions de civils dans une situation humanitaire catastrophique.",
+            "p3": "Les bombardements aériens, les blocus maritimes, la famine et les épidémies ont fait des centaines de milliers de victimes, dont une majorité de femmes et d’enfants.",
+            "p4": "Les infrastructures médicales et éducatives sont en ruines. L’ONU parle de la pire crise humanitaire au monde, avec plus de 80% de la population dépendant de l’aide humanitaire.",
+            "p5": "Malgré les appels à la paix, les négociations échouent régulièrement, et les combats continuent dans plusieurs régions du pays."
+          },
+          "sources": [
+            {
+              "title": "Rapport 2024, Human Rights Watch – Yémen",
+              "url": "https://www.hrw.org/fr/world-report/country-chapters/yemen?utm_source=chatgpt.com"
+            }
+          ]
+        }
+      ],
+      "cameroun": [
+        {
+          "pays": "cameroun",
+          "titre": "Sous les Gouttes Rouges",
+          "src": "/affiches/Cameroun.webp",
+          "youtube": "",
+          "dates": "Depuis 2016",
+          "bilan_morts": "Environ 6000",
+          "disponible": "",
+          "paragraphes": {
+            "p1": "Depuis 2017, la guerre du Cameroun, ou Crise anglophone, oppose le gouvernement aux séparatistes anglophones réclamant l’indépendance des régions du Nord-Ouest et du Sud-Ouest, qu’ils appellent l’Ambazonie. Ce conflit a éclaté après des années de marginalisation des anglophones par le pouvoir central francophone. Les manifestations pacifiques de 2016 se sont transformées en insurrection armée, après une répression violente.",
+            "p2": "Le gouvernement de Paul Biya réagit en envoyant l’armée, tandis que les séparatistes mènent une guerre de guérilla. L’armée réprime sévèrement : exécutions, incendies de villages, arrestations et tortures. Les séparatistes pratiquent des enlèvements, des attaques contre les forces de l’ordre et un boycott des institutions.",
+            "p3": "Ce conflit a causé plus de 6 000 morts, un million de déplacés et des milliers d’enfants privés d’éducation. Les civils sont pris entre deux feux, dans un contexte de violence extrême. Les tentatives de médiation échouent et la communauté internationale reste silencieuse. La guerre continue, laissant des cicatrices profondes sur la population."
+          },
+          "sources": [
+            {
+              "title": "Rapport 2024, Human Rights Watch",
+              "url": "https://www.hrw.org/world-report/2024/country-chapters/cameroon"
+            }
+          ]
+        }
+      ],
+      "birmanie": [
+        {
+          "pays": "birmanie",
+          "titre": "Dernière Chance",
+          "src": "/affiches/Birmanie.webp",
+          "youtube": "",
+          "dates": "Depuis 2016",
+          "bilan_morts": "Environ 6000",
+          "disponible": "",
+          "paragraphes": {
+            "p1": "Depuis le 1er février 2021, la Birmanie est plongée dans une guerre civile opposant la junte militaire aux forces de résistance. Ce conflit éclate après un coup d’État où l’armée renverse le gouvernement civil d’Aung San Suu Kyi, arrête les dirigeants démocratiquement élus et impose un régime autoritaire. Face à la répression sanglante des manifestations pacifiques, la population se soulève et forme des groupes armés, donnant naissance à une insurrection généralisée.",
+            "p2": "Le gouvernement militaire réagit par une violence extrême : arrestations massives, exécutions sommaires, bombardements de villages et destruction des foyers de résistance. En parallèle, les forces rebelles s’organisent. En 2023, l’Alliance des Trois Fraternités – une coalition de groupes ethniques armés – lance l’Opération 1027, infligeant des défaites majeures à la junte. En décembre, la MNDAA capture la ville stratégique de Laukkai, et début 2024, les forces Karen s’emparent de Myawaddy après de violents combats.",
+            "p3": "Ce conflit a plongé le pays dans une catastrophe humanitaire. Plus de 3 millions de personnes ont été déplacées, l’économie est en ruine et l’accès aux soins et à la nourriture devient critique. La population, prise en étau entre les bombardements de la junte et les combats de la résistance, subit quotidiennement la terreur et l’incertitude.",
+            "p4": "Les efforts diplomatiques restent vains, tandis que la communauté internationale peine à réagir face à l’ampleur du drame. La guerre continue, ravageant un pays déjà marqué par des décennies d’instabilité et d’oppression."
+          },
+          "sources": [
+            {
+              "title": "Rapport ONU 2024 (via Reuters)",
+              "url": "https://www.reuters.com/world/asia-pacific/myanmar-military-intensifies-civilian-killings-arrests-says-un-report-2024-09-17/"
+            }
+          ]
+        }
+      ],
+      "rdc": [
+        {
+          "pays": "rdc",
+          "titre": "Les Cris de République démocratique du Congo",
+          "src": "/affiches/RDC.webp",
+          "youtube": "",
+          "dates": "Depuis 2012",
+          "bilan_morts": "Plus de 7 millions de déplacés",
+          "disponible": "",
+          "paragraphes": {
+            "p1": "Depuis 2012, la guerre en République démocratique du Congo (RDC) oppose le gouvernement congolais aux groupes armés, dont le M23, un mouvement rebelle actif dans l’est du pays. Ce conflit s’inscrit dans une instabilité chronique héritée des guerres du Congo (1996-2003) et des tensions ethniques et régionales exacerbées par l’implication de puissances voisines, notamment le Rwanda et l’Ouganda.",
+            "p2": "Le M23, composé d’anciens soldats congolais majoritairement tutsis, s’est rebellé en 2012, accusant Kinshasa de ne pas respecter les accords de paix. Après une défaite militaire en 2013, le groupe refait surface en 2021 et lance une offensive majeure en 2022, s’emparant de territoires stratégiques dans le Nord-Kivu. L’armée congolaise tente de contenir l’avancée rebelle, tandis que la communauté internationale appelle au dialogue, sans succès.",
+            "p3": "Les combats sont marqués par des massacres, des déplacements massifs et des accusations de soutien rwandais au M23, ce que Kigali dément. L’armée congolaise mène des offensives avec l’appui de groupes armés locaux et de forces étrangères, aggravant le chaos. La population civile est la principale victime : plus de 7 millions de personnes sont déplacées, les violences sexuelles sont utilisées comme arme de guerre, et l’accès aux services de base est limité.",
+            "p4": "Les tentatives de médiation, notamment par l’Union africaine et la Communauté d'Afrique de l'Est, n’ont pas abouti. Malgré les efforts diplomatiques et militaires, le conflit s’enlise, plongeant l’est de la RDC dans une crise humanitaire et sécuritaire sans fin."
+          },
+          "sources": [
+            {
+              "title": "Conflit dans l’est de la RDC, RFI",
+              "url": "https://www.rfi.fr/fr/afrique/20250331-conflit-dans-l-est-de-la-rdc-ce-que-l-on-sait-sur-le-d%C3%A9roulement-de-la-m%C3%A9diation-au-qatar"
+            },
+            {
+              "title": "Conflit dans l’est de la RDC : un bilan humain dramatique, RFI",
+              "url": "https://www.rfi.fr/fr/afrique/20250209-conflit-dans-l-est-de-la-rdc-un-bilan-humain-dramatique-une-situation-terrible"
+            },
+            {
+              "title": "En RDC, les rebelles du M23 poursuivent leur avancée fulgurante, RFI",
+              "url": "https://www.mediapart.fr/journal/international/160225/en-rdc-les-rebelles-du-m23-poursuivent-leur-avancee-fulgurante"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "about": [
+        {
+          "titre": "about",
+          "paragraphes": {
+            "p1": "Certain wars rage in silence. They strike Sudan, Burma, the DRC, Yemen and Cameroon, yet remain absent from the media.",
+            "p2": "Through this project, we have chosen to highlight them. Five conflicts among many others, too often ignored.",
+            "p3": "To attract attention, we hijacked the codes of cinema. By editing fake trailers from existing films, we create an illusion… that quickly shifts into reality. At the end of each video, a message reminds: this is not a film.",
+            "p4": "On this site, you will find our videos, posters, and resources to understand these forgotten wars. Because indifference should no longer be an option."
+          },
+          "credits": "credits"
+        }
+      ],
+      "sudan": [
+        {
+          "pays": "sudan",
+          "titre": "Les Cris de Khartoum",
+          "src": "/affiches/Soudan.webp",
+          "youtube": "https://www.youtube.com/embed/R_EYx8CnTxk",
+          "dates": "Since April 2023",
+          "bilan_morts": "Over 13,000 deaths",
+          "disponible": "active",
+          "paragraphes": {
+            "p1": "Since April 2023, Sudan has been engulfed in a bloody civil war between the national army (SAF) and the Rapid Support Forces (RSF), a powerful paramilitary group. The conflict stems from a power struggle between General Abdel Fattah al-Burhan, head of the army, and Mohamed Hamdan Dagalo, also known as “Hemedti”, leader of the RSF.",
+            "p2": "In the early days, the capital Khartoum turned into a battlefield. Bombings, street fighting, and summary executions reduced the city to rubble.",
+            "p3": "The war has gradually spread to other regions, especially Darfur, where the RSF is accused of ethnic massacres reminiscent of the early 2000s atrocities.",
+            "p4": "Civilians are trapped in a spiral of violence. Over 8 million people have been displaced, famine is looming, and access to healthcare is nearly non-existent.",
+            "p5": "Mediation efforts have failed, and the international community remains passive. The country sinks further into anarchy."
+          },
+          "sources": [
+            {
+              "title": "UN warns of Sudan collapse",
+              "url": "https://news.un.org/fr/story/2024/04/1144801"
+            },
+            {
+              "title": "Sudan Emergency: Millions of children at risk | UNICEF",
+              "url": "https://www.unicef.fr/article/urgence-soudan-des-millions-denfants-en-danger/"
+            },
+            {
+              "title": "What is happening in Sudan? | BBC Africa",
+              "url": "https://www.bbc.com/afrique/articles/c774e16xd1ko"
+            }
+          ]
+        }
+      ],
+      "yemen": [
+        {
+          "pays": "yemen",
+          "titre": "Les Cris de Yemen",
+          "src": "/affiches/Yemen.webp",
+          "youtube": "",
+          "dates": "Since 2014",
+          "bilan_morts": "Approximately 377,000 deaths (direct and indirect)",
+          "disponible": "",
+          "paragraphes": {
+            "p1": "The conflict in Yemen began in 2014 when Houthi rebels, backed by Iran, seized the capital Sanaa, forcing the internationally recognized government into exile.",
+            "p2": "In 2015, a Saudi-led coalition intervened militarily to restore the government. Since then, the country has been devastated by a war that plunged millions of civilians into a catastrophic humanitarian crisis.",
+            "p3": "Airstrikes, maritime blockades, famine, and disease outbreaks have caused hundreds of thousands of deaths, the majority being women and children.",
+            "p4": "Medical and educational infrastructures are in ruins. The UN has described it as the world’s worst humanitarian crisis, with over 80% of the population relying on humanitarian aid.",
+            "p5": "Despite calls for peace, negotiations regularly fail, and fighting continues in several regions of the country."
+          },
+          "sources": [
+            {
+              "title": "2024 Report, Human Rights Watch – Yemen",
+              "url": "https://www.hrw.org/fr/world-report/country-chapters/yemen?utm_source=chatgpt.com"
+            }
+          ]
+        }
+      ],
+      "cameroon": [
+        {
+          "pays": "cameroon",
+          "titre": "Sous les Gouttes Rouges",
+          "src": "/affiches/Cameroun.webp",
+          "youtube": "",
+          "dates": "Since 2016",
+          "bilan_morts": "Approximately 6,000",
+          "disponible": "",
+          "paragraphes": {
+            "p1": "Since 2017, Cameroon's war, or “Anglophone Crisis”, has pitted the government against Anglophone separatists demanding independence for the North-West and South-West regions, which they call Ambazonia. This conflict erupted after years of marginalization of Anglophones by the French-speaking central power. Peaceful demonstrations in 2016 turned into armed insurrection, after violent repression.",
+            "p2": "Paul Biya's government responded by sending in the army, while the separatists waged a guerrilla war. The army cracked down severely, with executions, village burnings, arrests and torture. The separatists carry out kidnappings, attacks on law enforcement agencies and boycotts of institutions.",
+            "p3": "The conflict has caused over 6,000 deaths, displaced a million people and deprived thousands of children of an education. Civilians are caught in the crossfire, in a context of extreme violence. Attempts at mediation fail, and the international community remains silent. The war goes on, leaving deep scars on the population."
+          },
+          "sources": [
+            {
+              "title": "2024 Report, Human Rights Watch",
+              "url": "https://www.hrw.org/world-report/2024/country-chapters/cameroon"
+            }
+          ]
+        }
+      ],
+      "birmanie": [
+        {
+          "pays": "birmanie",
+          "titre": "Dernière Chance",
+          "src": "/affiches/Birmanie.webp",
+          "youtube": "",
+          "dates": "Since 2016",
+          "bilan_morts": "Approximately 6,000",
+          "disponible": "",
+          "paragraphes": {
+            "p1": "Since February 1, 2021, Burma has been embroiled in a civil war between the military junta and resistance forces. The conflict erupted after a coup d'état in which the army overthrew the civilian government of Aung San Suu Kyi, arrested the democratically elected leaders and imposed an authoritarian regime. Faced with the bloody repression of peaceful demonstrations, the population rose up and formed armed groups, giving rise to a widespread insurrection.",
+            "p2": "The military government reacted with extreme violence: mass arrests, summary executions, bombing of villages and destruction of resistance centers. At the same time, rebel forces began to organize. In 2023, the Three Brotherhoods Alliance - a coalition of armed ethnic groups - launched Operation 1027, inflicting major defeats on the junta. In December, the MNDAA captured the strategic town of Laukkai, and in early 2024, Karen forces seized Myawaddy after fierce fighting.",
+            "p3": "This conflict has plunged the country into a humanitarian catastrophe. More than 3 million people have been displaced, the economy is in ruins and access to healthcare and food is becoming critical. The population, caught between the junta's bombardments and the resistance's fighting, suffers daily terror and uncertainty.",
+            "p4": "Diplomatic efforts remain in vain, while the international community struggles to react to the scale of the tragedy. The war continues, ravaging a country already marked by decades of instability and oppression."
+          },
+          "sources": [
+            {
+              "title": "Rapport ONU 2024 (via Reuters)",
+              "url": "https://www.reuters.com/world/asia-pacific/myanmar-military-intensifies-civilian-killings-arrests-says-un-report-2024-09-17/"
+            }
+          ]
+        }
+      ],
+      "drc": [
+        {
+          "pays": "drc",
+          "titre": "Les Cris de Democratic Republic of Congo",
+          "src": "/affiches/rdc.webp",
+          "youtube": "",
+          "dates": "Since 2012",
+          "bilan_morts": "Over 7 million displaced",
+          "disponible": "",
+          "paragraphes": {
+            "p1": "Since 2012, the war in the Democratic Republic of Congo (DRC) has pitted the Congolese government against armed groups, including the M23, a rebel movement active in the east of the country. This conflict is part of a chronic instability inherited from the Congo wars (1996-2003) and ethnic and regional tensions exacerbated by the involvement of neighboring powers, notably Rwanda and Uganda.",
+            "p2": "The M23, made up of mostly Tutsi former Congolese soldiers, rebelled in 2012, accusing Kinshasa of failing to respect peace agreements. After a military defeat in 2013, the group resurfaced in 2021 and launched a major offensive in 2022, seizing strategic territories in North Kivu. The Congolese army attempted to contain the rebel advance, while the international community called for dialogue, without success.",
+            "p3": "The fighting is marked by massacres, mass displacements and accusations of Rwandan support for the M23, which Kigali denies. The Congolese army carries out offensives with the support of local armed groups and foreign forces, exacerbating the chaos. The civilian population is the main victim: over 7 million people are displaced, sexual violence is used as a weapon of war, and access to basic services is limited.",
+            "p4": "Attempts at mediation, notably by the African Union and the East African Community, have been to no avail. Despite diplomatic and military efforts, the conflict is bogged down, plunging eastern DRC into an endless humanitarian and security crisis."
+          },
+          "sources": [
+            {
+              "title": "Conflict in eastern DRC: what we know about the Qatar mediation, RFI",
+              "url": "https://www.rfi.fr/fr/afrique/20250331-conflit-dans-l-est-de-la-rdc-ce-que-l-on-sait-sur-le-d%C3%A9roulement-de-la-m%C3%A9diation-au-qatar"
+            },
+            {
+              "title": "Conflict in eastern DRC: a dramatic human toll, RFI",
+              "url": "https://www.rfi.fr/fr/afrique/20250209-conflit-dans-l-est-de-la-rdc-un-bilan-humain-dramatique-une-situation-terrible"
+            },
+            {
+              "title": "In the DRC, M23 rebels continue their rapid advance, Mediapart",
+              "url": "https://www.mediapart.fr/journal/international/160225/en-rdc-les-rebelles-du-m23-poursuivent-leur-avancee-fulgurante"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,10 +2,8 @@ import { Content } from "@/components/Content";
 import data from "@/public/data/data.json";
 import { notFound } from "next/navigation";
 
-type PageProps = {
-  params: {
-    pays: string;
-  };
+type Props = {
+  params: Promise<{ pays: string }>;
 };
 
 export async function generateStaticParams() {
@@ -19,8 +17,8 @@ export async function generateStaticParams() {
   return validPays.map((pays) => ({ pays }));
 }
 
-export default function Page({ params }: PageProps) {
-  const { pays } = params;
+export default async function Page({ params }: Props) {
+  const { pays } = await params;
   const content = (data as Record<string, any>).fr[0]?.[pays]?.[0];
 
   //console.log("data(content) of page: ", content);

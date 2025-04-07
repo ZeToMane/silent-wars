@@ -20,8 +20,8 @@ export async function generateStaticParams() {
   return validCountries.map((pays) => ({ pays }));
 }
 
-export default async function Page({ params }: PageProps) {
-  const { pays } = await params;
+export default function Page({ params }: PageProps) {
+  const { pays } = params;
   const content = (data as Record<string, any>).en[0]?.[pays]?.[0];
 
   console.log("data(content) of page: ", content);

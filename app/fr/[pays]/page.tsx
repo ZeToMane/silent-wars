@@ -2,7 +2,7 @@ import { Content } from "@/components/Content";
 import data from "@/public/data/data.json";
 import { notFound } from "next/navigation";
 
-type Params = {
+type PageProps = {
   params: {
     pays: string;
   };
@@ -19,7 +19,7 @@ export async function generateStaticParams() {
   return validPays.map((pays) => ({ pays }));
 }
 
-export default async function Page({ params }: Params) {
+export default async function Page({ params }: PageProps) {
   const { pays } = await params;
   const content = (data as Record<string, any>).fr[0]?.[pays]?.[0];
 

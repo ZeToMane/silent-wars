@@ -31,15 +31,15 @@
           },
           "sources": [
             {
-              "title": "L'ONU alerte sur l'effondrement du Soudan",
+              "title": "L'ONU alerte sur l'effondrement du Soudan, ONU",
               "url": "https://news.un.org/fr/story/2024/04/1144801"
             },
             {
-              "title": "Urgence Soudan : des millions d’enfants en danger | UNICEF",
+              "title": "Urgence Soudan : des millions d’enfants en danger, UNICEF",
               "url": "https://www.unicef.fr/article/urgence-soudan-des-millions-denfants-en-danger/"
             },
             {
-              "title": "Guerre au Soudan : que se passe-t-il ? | BBC Afrique",
+              "title": "Guerre au Soudan : que se passe-t-il ?, BBC Afrique",
               "url": "https://www.bbc.com/afrique/articles/c774e16xd1ko"
             }
           ]
@@ -64,7 +64,7 @@
           "sources": [
             {
               "title": "Rapport 2024, Human Rights Watch – Yémen",
-              "url": "https://www.hrw.org/fr/world-report/country-chapters/yemen?utm_source=chatgpt.com"
+              "url": "https://www.hrw.org/fr/world-report/country-chapters/yemen"
             }
           ]
         }
@@ -108,7 +108,7 @@
           },
           "sources": [
             {
-              "title": "Rapport ONU 2024 (via Reuters)",
+              "title": "Rapport ONU 2024, Reuters",
               "url": "https://www.reuters.com/world/asia-pacific/myanmar-military-intensifies-civilian-killings-arrests-says-un-report-2024-09-17/"
             }
           ]
@@ -179,15 +179,15 @@
           },
           "sources": [
             {
-              "title": "UN warns of Sudan collapse",
+              "title": "UN warns of Sudan collapse, ONU",
               "url": "https://news.un.org/fr/story/2024/04/1144801"
             },
             {
-              "title": "Sudan Emergency: Millions of children at risk | UNICEF",
+              "title": "Sudan Emergency: Millions of children at risk, UNICEF",
               "url": "https://www.unicef.fr/article/urgence-soudan-des-millions-denfants-en-danger/"
             },
             {
-              "title": "What is happening in Sudan? | BBC Africa",
+              "title": "What is happening in Sudan ?, BBC Africa",
               "url": "https://www.bbc.com/afrique/articles/c774e16xd1ko"
             }
           ]
@@ -211,8 +211,8 @@
           },
           "sources": [
             {
-              "title": "2024 Report, Human Rights Watch – Yemen",
-              "url": "https://www.hrw.org/fr/world-report/country-chapters/yemen?utm_source=chatgpt.com"
+              "title": "2024 Report, Human Rights Watch, Human Rights Watch",
+              "url": "https://www.hrw.org/fr/world-report/country-chapters/yemen"
             }
           ]
         }
@@ -256,7 +256,7 @@
           },
           "sources": [
             {
-              "title": "Rapport ONU 2024 (via Reuters)",
+              "title": "Rapport ONU 2024, Reuters",
               "url": "https://www.reuters.com/world/asia-pacific/myanmar-military-intensifies-civilian-killings-arrests-says-un-report-2024-09-17/"
             }
           ]

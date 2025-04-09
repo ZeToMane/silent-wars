@@ -44,3 +44,18 @@
     }
   }
 }
+
+.Footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+
+  a {
+    color: #fff;
+    font-family: var(--font-sf-pro-bold);
+    font-weight: 700;
+    letter-spacing: 1%;
+  }
+}

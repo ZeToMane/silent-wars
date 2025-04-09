@@ -81,6 +81,23 @@ export default function RootLayout({
             </div>
           </Link>
           {children}
+          <div className={clsx(css.Footer)}>
+            <a
+              href="https://www.instagram.com/silentwars_org?igsh=M2JibnBqbnk5a210"
+              target="_blank"
+            >
+              Instagram
+            </a>
+            <a href="https://x.com/silentwarsorg" target="_blank">
+              X
+            </a>
+            <a
+              href="https://bsky.app/profile/silentwars.bsky.social"
+              target="_blank"
+            >
+              Bluesky
+            </a>
+          </div>
         </div>
       </body>
     </html>

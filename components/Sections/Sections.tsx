@@ -1,12 +1,9 @@
-"use client";
-
 import clsx from "clsx";
 
 import css from "./Sections.module.scss";
 
 import { Slider } from "@/components/Slider";
-
-import { useState } from "react";
+import Image from "next/image";
 
 type sectionProps = {
   data: any;
@@ -51,9 +48,23 @@ export function Sections({ data, lang }: sectionProps) {
             l’indifférence ne doit plus être une option.
           </p> */}
         </div>
-        <div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           <h2>{data.credits}</h2>
-          <p style={{ textAlign: "center" }}>Adèle BEAUNÉ</p>
+          <Image
+            width={200}
+            height={100}
+            src="/mmi-logo.svg"
+            alt={`Affiche du film ${data.titre}`}
+            className={css.logo}
+          />
+          {/* <p style={{ textAlign: "center" }}>Adèle BEAUNÉ</p>
           <p style={{ textAlign: "center" }}>Noémie NUNEZ</p>
           <p style={{ textAlign: "center" }}>Justine GELIS</p>
           <p style={{ textAlign: "center" }}>Pedro BARROS PARENTE</p>
@@ -61,7 +72,7 @@ export function Sections({ data, lang }: sectionProps) {
           <p style={{ textAlign: "center" }}>Charles NEVEU</p>
           <p style={{ textAlign: "center" }}>Baptiste NOGUERAS</p>
           <p style={{ textAlign: "center" }}>Enzo LUCAS</p>
-          <p style={{ textAlign: "center" }}>Rose PEREIRA</p>
+          <p style={{ textAlign: "center" }}>Rose PEREIRA</p> */}
           {/* <p style={{ textAlign: "center" }}>Paul PAULY</p> */}
         </div>
       </div>

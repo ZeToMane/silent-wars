@@ -6,6 +6,13 @@
   justify-content: center;
   gap: 1rem;
 
+  .logo {
+    position: relative;
+    width: 200px;
+    height: auto;
+    filter: invert(1);
+  }
+
   p {
     font-family: sans-serif;
     line-height: 150%;

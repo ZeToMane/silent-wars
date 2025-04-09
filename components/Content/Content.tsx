@@ -1,20 +1,57 @@
+"use client";
+
 import clsx from "clsx";
 
 import css from "./Content.module.scss";
 
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 type contentProps = {
   data: any;
   lang: "fr" | "en";
 };
 
+function calculateDuration(from: Date, to: Date, lang: "fr" | "en") {
+  const diff = Math.floor((to.getTime() - from.getTime()) / 1000); // total seconds
+
+  const days = Math.floor(diff / (60 * 60 * 24));
+  const hours = Math.floor((diff % (60 * 60 * 24)) / (60 * 60));
+  const minutes = Math.floor((diff % (60 * 60)) / 60);
+  const seconds = diff % 60;
+
+  const labels =
+    lang === "fr"
+      ? { d: "J", h: "H", m: "M", s: "S" }
+      : { d: "D", h: "H", m: "M", s: "S" };
+
+  return `${days}${labels.d} ${hours}${labels.h} ${minutes}${labels.m} ${seconds}${labels.s}`;
+}
+
 export function Content({ data, lang }: contentProps) {
   console.log("data inside content component: ", data);
+  console.log("data statistique", data.statistiques);
+
+  const [elapsed, setElapsed] = useState("");
+
+  const startDate = new Date(
+    data.dates.split("/").reverse().join("-") + "T00:00:00Z"
+  );
+
+  useEffect(() => {
+    const updateElapsed = () => {
+      setElapsed(calculateDuration(startDate, new Date(), lang));
+    };
+
+    updateElapsed(); // initialize immediately
+    const interval = setInterval(updateElapsed, 1000);
+
+    return () => clearInterval(interval); // cleanup
+  }, [startDate]);
+
   return (
     <div className={css.Slider}>
       <div className={css.content}>
-        {/* <h2>LES CRIS DE KHARTOUM</h2> */}
         <div className={clsx(css["poster"])}>
           <Image
             src={`${data.src}`}
@@ -24,7 +61,7 @@ export function Content({ data, lang }: contentProps) {
           />
         </div>
 
-        <iframe
+        {/* <iframe
           width="100%"
           height="500"
           src={`${data.youtube}`}
@@ -33,35 +70,51 @@ export function Content({ data, lang }: contentProps) {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
-        ></iframe>
+        ></iframe> */}
 
-        {/* <div className={clsx(css["text"])}>
-          <p>
-            Depuis 2023, le Soudan est plongé dans une guerre fratricide qui
-            oppose l’armée nationale aux forces paramilitaires. Une lutte de
-            pouvoir implacable, sans règle ni répit, où l’ambition des uns
-            écrase la liberté des autres. Ce conflit déchire le pays de
-            l’intérieur, ne laissant derrière lui que ruines, exodes et silences
-            forcés.
-          </p>
+        <div style={{ width: "100%", height: "500px" }}>
+          <iframe
+            src={`${data.vimeo}`}
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+            style={{ width: "100%", height: "500px" }}
+            title={`${data.titre} - Bande annonce officielle`}
+          ></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
 
-          <p>
-            Khartoum, la capitale jadis vibrante, n’est plus qu’un champ de
-            cendres. Les hôpitaux ferment, les marchés se vident, les écoles
-            s’effacent. Dans les quartiers meurtris, la peur, la faim et le
-            désespoir prennent le dessus. Les familles fuient sous les bombes,
-            sans savoir où aller, ni ce qui les attend au prochain détour.
-          </p>
+        <div className={clsx(css["stats-container"])}>
+          <div className={clsx(css["stat"])}>
+            {lang == "fr" ? <h3>MORTS</h3> : <h3>DEATHS</h3>}
+            <p>{data.statistiques[1].morts}</p>
+          </div>
+          <div className={clsx(css["stat"])}>
+            {lang == "fr" ? <h3>DÉPLACÉES</h3> : <h3>DISPLACED</h3>}
+            <p>{data.statistiques[0].deplace}</p>
+          </div>
+          <div className={clsx(css["stat"])}>
+            {lang == "fr" ? <h3>DURÉE</h3> : <h3>DURATION</h3>}
+            <p>
+              {/* {(() => {
+                try {
+                  const [day, month, year] = data.dates.split("/").map(Number);
+                  const startDate = new Date(year, month - 1, day);
+                  const today = new Date();
+                  const diffTime = today.getTime() - startDate.getTime();
+                  const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+                  return lang === "fr"
+                    ? `${diffDays} jours de guerre`
+                    : `${diffDays} days of war`;
+                } catch (e) {
+                  return lang === "fr" ? "Date inconnue" : "Unknown date";
+                }
+              })()} */}
+              {elapsed}
+            </p>
+          </div>
+        </div>
 
-          <p>
-            Pris au piège d’un conflit qui les dépasse, des millions de civils
-            tentent simplement de survivre. Mais quand chaque route mène à
-            l’incertitude, quand même l’exil devient un risque, une question
-            demeure : que reste-t-il à espérer, lorsque tout s’effondre ?
-          </p>
-        </div> */}
         {lang == "fr" ? <h2>CONTEXTE</h2> : <h2>CONTEXT</h2>}
-        {/* <h2>CONTEXTE</h2> */}
 
         <div className={clsx(css["text"])}>
           {(Object.values(data.paragraphes) as string[]).map(
@@ -69,42 +122,6 @@ export function Content({ data, lang }: contentProps) {
               <p key={index}>{paragraph}</p>
             )
           )}
-          {/* <p>
-            Depuis avril 2023, le Soudan est plongé dans une guerre civile
-            sanglante opposant l'armée nationale (SAF) aux Forces de soutien
-            rapide (RSF), une puissante milice paramilitaire. Ce conflit trouve
-            ses racines dans les rivalités de pouvoir entre le général Abdel
-            Fattah al-Burhan, chef de l'armée, et Mohamed Hamdan Dagalo, alias
-            “Hemedti", leader des RSF. Après des années de tensions et d’accords
-            fragiles, la rupture est totale, et le pays sombre dans un chaos
-            meurtrier.
-          </p>
-
-          <p>
-            Dès les premiers jours, la capitale Khartoum devient un véritable
-            champ de bataille. Les bombardements, les combats de rue et les
-            exécutions sommaires transforment la ville en ruines.
-            Progressivement, la guerre s’étend aux autres régions, notamment au
-            Darfour, où les RSF sont accusées de massacres ethniques rappelant
-            les horreurs des années 2000.
-          </p>
-
-          <p>
-            Les civils sont pris au piège dans une spirale de violence. Plus de
-            8 millions de personnes sont déplacées, la famine menace, et l’accès
-            aux soins devient quasi inexistant. Les hôpitaux sont détruits ou
-            occupés par les combattants, laissant les blessés sans secours.
-            L’économie s’effondre, et la faim devient une arme de guerre.
-          </p>
-
-          <p>
-            Les tentatives de médiation, menées par l’Union africaine et des
-            puissances régionales, échouent face à l’intransigeance des
-            belligérants. Le Soudan s’enfonce dans l’anarchie, tandis que la
-            communauté internationale reste spectatrice. La guerre continue,
-            laissant derrière elle un pays en ruines et un peuple abandonné à
-            son sort.
-          </p> */}
         </div>
 
         <h2>SOURCES</h2>

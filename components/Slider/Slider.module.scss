@@ -39,7 +39,7 @@
       display: flex; // center the text
       align-items: center;
       justify-content: center;
-      font-family: --font-reglo;
+      font-family: var(--font-sf-pro-bold);
       font-size: 1.2rem;
       letter-spacing: 0.2rem;
       font-weight: bold;
@@ -74,7 +74,7 @@
   }
 
   h2 {
-    font-family: var(--font-reglo);
+    font-family: var(--font-sf-pro-bold);
     width: 100%;
     font-weight: 700;
     font-size: 1.5rem;

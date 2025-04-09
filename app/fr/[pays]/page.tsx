@@ -1,4 +1,5 @@
 import { Content } from "@/components/Content";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import data from "@/public/data/data.json";
 import { notFound } from "next/navigation";
 
@@ -27,5 +28,10 @@ export default async function Page({ params }: Props) {
     notFound();
   }
 
-  return <Content data={content} lang="fr" />;
+  return (
+    <>
+      <LanguageSwitcher lang="fr" />
+      <Content data={content} lang="fr" />
+    </>
+  );
 }

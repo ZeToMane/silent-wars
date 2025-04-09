@@ -62,7 +62,7 @@ export function Sections({ data, lang }: sectionProps) {
           <p style={{ textAlign: "center" }}>Baptiste NOGUERAS</p>
           <p style={{ textAlign: "center" }}>Enzo LUCAS</p>
           <p style={{ textAlign: "center" }}>Rose PEREIRA</p>
-          <p style={{ textAlign: "center" }}>Paul PAULY</p>
+          {/* <p style={{ textAlign: "center" }}>Paul PAULY</p> */}
         </div>
       </div>
     </div>

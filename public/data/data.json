@@ -18,8 +18,8 @@
           "pays": "soudan",
           "titre": "Les Cris de Khartoum",
           "src": "/affiches/Soudan.webp",
-          "youtube": "https://www.youtube.com/embed/R_EYx8CnTxk",
-          "dates": "Depuis avril 2023",
+          "vimeo": "https://player.vimeo.com/video/1073924448?h=04c3c501b3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "dates": "15/04/2023",
           "bilan_morts": "Plus de 15 000 morts (Avril 2024)",
           "disponible": "active",
           "paragraphes": {
@@ -41,6 +41,22 @@
             {
               "title": "Guerre au Soudan : que se passe-t-il ?, BBC Afrique",
               "url": "https://www.bbc.com/afrique/articles/c774e16xd1ko"
+            },
+            {
+              "title": "Sortir la guerre au Soudan de l’oubli",
+              "url": "https://www.lemonde.fr/idees/article/2024/11/13/sortir-la-guerre-au-soudan-de-l-oubli_6391448_3232.html"
+            },
+            {
+              "title": "Soudan un an après, ce qu'il faut savoir sur le conflit (2017)",
+              "url": "https://www.amnesty.fr/conflits-armes-et-populations/actualites/soudan-tout-ce-quil-faut-savoir-sur-le-conflit"
+            }
+          ],
+          "statistiques":[
+            {
+              "deplace": "+ 8 000 000"
+            },
+            {
+              "morts": "+ 15 000"
             }
           ]
         }
@@ -48,10 +64,10 @@
       "yemen": [
         {
           "pays": "yémen",
-          "titre": "Les Cris de Yémen",
+          "titre": "Le Dernier Front",
           "src": "/affiches/Yemen.webp",
-          "youtube": "",
-          "dates": "Depuis 2014",
+          "vimeo": "",
+          "dates": "16/09/2014",
           "bilan_morts": "Environ 377 000 morts (directs et indirects)",
           "disponible": "",
           "paragraphes": {
@@ -63,8 +79,24 @@
           },
           "sources": [
             {
-              "title": "Rapport 2024, Human Rights Watch – Yémen",
+              "title": "Rapport 2024 Yémen, Human Rights Watch (2024)",
               "url": "https://www.hrw.org/fr/world-report/country-chapters/yemen"
+            },
+            {
+              "title": "Comprendre les origines de la guerre au Yémen, Le Monde (2015)",
+              "url": "https://www.lemonde.fr/les-decodeurs/article/2015/04/17/comprendre-les-origines-de-la-guerre-au-yemen_4617215_4355770.html"
+            },
+            {
+              "title": "Yemen Crisis Explained, UNHCR (2025)",
+              "url": "https://www.unrefugees.org/news/yemen-crisis-explained/"
+            }
+          ],
+          "statistiques":[
+            {
+              "deplace": "4 500 000"
+            },
+            {
+              "morts": "377 000"
             }
           ]
         }
@@ -74,9 +106,9 @@
           "pays": "cameroun",
           "titre": "Sous les Gouttes Rouges",
           "src": "/affiches/Cameroun.webp",
-          "youtube": "",
-          "dates": "Depuis 2016",
-          "bilan_morts": "Environ 6000",
+          "vimeo": "",
+          "dates": "09/09/2017",
+          "bilan_morts": "+ de 6 000",
           "disponible": "",
           "paragraphes": {
             "p1": "Depuis 2017, la guerre du Cameroun, ou Crise anglophone, oppose le gouvernement aux séparatistes anglophones réclamant l’indépendance des régions du Nord-Ouest et du Sud-Ouest, qu’ils appellent l’Ambazonie. Ce conflit a éclaté après des années de marginalisation des anglophones par le pouvoir central francophone. Les manifestations pacifiques de 2016 se sont transformées en insurrection armée, après une répression violente.",
@@ -85,8 +117,32 @@
           },
           "sources": [
             {
-              "title": "Rapport 2024, Human Rights Watch",
+              "title": "Rapport 2024, Human Rights Watch (2024)",
               "url": "https://www.hrw.org/world-report/2024/country-chapters/cameroon"
+            },
+            {
+              "title": "Cameroun: la guerre qui ne dit pas son nom, Mediapart (2019)",
+              "url": "https://www.mediapart.fr/journal/international/170819/cameroun-la-guerre-qui-ne-dit-pas-son-nom"
+            },
+            {
+              "title": "Dans le Cameroun anglophone, le droit de passage est un fardeau supplémentaire, RFI (2025)",
+              "url": "https://www.rfi.fr/fr/afrique/20250402-dans-le-cameroun-anglophone-le-droit-de-passage-est-un-fardeau-suppl%C3%A9mentaire-pour-les-familles-endeuill%C3%A9es"
+            },
+            {
+              "title": "Au Cameroun anglophone où la guerre civile fait rage, « cette CAN nous trouve en deuil », Le Monde (2022)",
+              "url": "https://www.lemonde.fr/afrique/article/2022/01/12/au-cameroun-anglophone-ou-la-guerre-civile-fait-rage-cette-can-nous-trouve-en-deuil_6109164_3212.html"
+            },
+            {
+              "title": "CAMEROUN, Régions anglophones : situation sécuritaire, CGRA (2025)",
+              "url": "https://www.cgra.be/sites/default/files/rapporten/coi_focus_cameroun._regions_anglophones._situation_securitaire_20240628.pdf#:~:text=l%E2%80%99OCHA176,l%E2%80%99int%C3%A9rieur%20des%20deux%20r%C3%A9gions%20anglophones"
+            }
+          ],
+          "statistiques":[
+            {
+              "deplace": "638 000"
+            },
+            {
+              "morts": "+ 6 000"
             }
           ]
         }
@@ -96,9 +152,9 @@
           "pays": "birmanie",
           "titre": "Dernière Chance",
           "src": "/affiches/Birmanie.webp",
-          "youtube": "",
-          "dates": "Depuis 2016",
-          "bilan_morts": "Environ 6000",
+          "vimeo": "",
+          "dates": "05/05/2021",
+          "bilan_morts": "9 000 morts (octobre 2024)",
           "disponible": "",
           "paragraphes": {
             "p1": "Depuis le 1er février 2021, la Birmanie est plongée dans une guerre civile opposant la junte militaire aux forces de résistance. Ce conflit éclate après un coup d’État où l’armée renverse le gouvernement civil d’Aung San Suu Kyi, arrête les dirigeants démocratiquement élus et impose un régime autoritaire. Face à la répression sanglante des manifestations pacifiques, la population se soulève et forme des groupes armés, donnant naissance à une insurrection généralisée.",
@@ -108,8 +164,28 @@
           },
           "sources": [
             {
-              "title": "Rapport ONU 2024, Reuters",
+              "title": "La Chronique 455 OCTOBRE 2024, Calaméo (2024)",
               "url": "https://www.reuters.com/world/asia-pacific/myanmar-military-intensifies-civilian-killings-arrests-says-un-report-2024-09-17/"
+            },
+            {
+              "title": "Rapport ONU 2024, Reuters",
+              "url": "calameo.com/read/00199502242caee7be1e8"
+            },
+            {
+              "title": "Présentation de la Birmanie, diplomatie.gouv (2025)",
+              "url": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/birmanie/presentation-de-la-birmanie/#:~:text=Birmanie%20ont%20port%C3%A9%20le%20taux,sont%20d%C3%A9plac%C3%A9es%20internes%20en%20Birmanie"
+            },
+            {
+              "title": "Présentation de la Birmanie, diplomatie.gouv (2025)",
+              "url": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/birmanie/presentation-de-la-birmanie/#:~:text=Birmanie%20ont%20port%C3%A9%20le%20taux,sont%20d%C3%A9plac%C3%A9es%20internes%20en%20Birmanie"
+            }
+          ],
+          "statistiques":[
+            {
+              "deplace": "3 500 000"
+            },
+            {
+              "morts": "9 000"
             }
           ]
         }
@@ -117,10 +193,10 @@
       "rdc": [
         {
           "pays": "rdc",
-          "titre": "Les Cris de République démocratique du Congo",
+          "titre": "L'Enfance Volée",
           "src": "/affiches/RDC.webp",
-          "youtube": "",
-          "dates": "Depuis 2012",
+          "vimeo": "",
+          "dates": "04/04/2012",
           "bilan_morts": "Plus de 7 millions de déplacés",
           "disponible": "",
           "paragraphes": {
@@ -141,6 +217,18 @@
             {
               "title": "En RDC, les rebelles du M23 poursuivent leur avancée fulgurante, RFI",
               "url": "https://www.mediapart.fr/journal/international/160225/en-rdc-les-rebelles-du-m23-poursuivent-leur-avancee-fulgurante"
+            },
+            {
+              "title": "République Démocratique du Congo : les civils menacés par l'intensification du conflit dans l'Est du pays, Amesty (2025)",
+              "url": "https://www.amnesty.fr/conflits-armes-et-populations/actualites/republique-democratique-du-congo-les-civils-en-danger-alors-que-le-conflit-sintensifie-dans-lest-du-pays"
+            }
+          ],
+          "statistiques":[
+            {
+              "deplace": "+ 7 000 000"
+            },
+            {
+              "morts": "9 000"
             }
           ]
         }
@@ -166,8 +254,8 @@
           "pays": "sudan",
           "titre": "Les Cris de Khartoum",
           "src": "/affiches/Soudan.webp",
-          "youtube": "https://www.youtube.com/embed/R_EYx8CnTxk",
-          "dates": "Since April 2023",
+          "vimeo": "https://player.vimeo.com/video/1073924448?h=04c3c501b3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "dates": "15/04/2023",
           "bilan_morts": "Over 13,000 deaths",
           "disponible": "active",
           "paragraphes": {
@@ -190,16 +278,24 @@
               "title": "What is happening in Sudan ?, BBC Africa",
               "url": "https://www.bbc.com/afrique/articles/c774e16xd1ko"
             }
+          ],
+          "statistiques":[
+            {
+              "deplace": "+ 8 000 000"
+            },
+            {
+              "morts": "+ 15 000"
+            }
           ]
         }
       ],
       "yemen": [
         {
           "pays": "yemen",
-          "titre": "Les Cris de Yemen",
+          "titre": "Le Dernier Front",
           "src": "/affiches/Yemen.webp",
-          "youtube": "",
-          "dates": "Since 2014",
+          "vimeo": "",
+          "dates": "16/09/2014",
           "bilan_morts": "Approximately 377,000 deaths (direct and indirect)",
           "disponible": "",
           "paragraphes": {
@@ -214,6 +310,14 @@
               "title": "2024 Report, Human Rights Watch, Human Rights Watch",
               "url": "https://www.hrw.org/fr/world-report/country-chapters/yemen"
             }
+          ],
+          "statistiques":[
+            {
+              "deplace": "4 500 000"
+            },
+            {
+              "morts": "377 000"
+            }
           ]
         }
       ],
@@ -222,8 +326,8 @@
           "pays": "cameroon",
           "titre": "Sous les Gouttes Rouges",
           "src": "/affiches/Cameroun.webp",
-          "youtube": "",
-          "dates": "Since 2016",
+          "vimeo": "",
+          "dates": "09/09/2017",
           "bilan_morts": "Approximately 6,000",
           "disponible": "",
           "paragraphes": {
@@ -236,6 +340,14 @@
               "title": "2024 Report, Human Rights Watch",
               "url": "https://www.hrw.org/world-report/2024/country-chapters/cameroon"
             }
+          ],
+          "statistiques":[
+            {
+              "deplace": "638 000"
+            },
+            {
+              "morts": "+ 6 000"
+            }
           ]
         }
       ],
@@ -244,9 +356,9 @@
           "pays": "birmanie",
           "titre": "Dernière Chance",
           "src": "/affiches/Birmanie.webp",
-          "youtube": "",
-          "dates": "Since 2016",
-          "bilan_morts": "Approximately 6,000",
+          "vimeo": "",
+          "dates": "05/05/2021",
+          "bilan_morts": "Approximately",
           "disponible": "",
           "paragraphes": {
             "p1": "Since February 1, 2021, Burma has been embroiled in a civil war between the military junta and resistance forces. The conflict erupted after a coup d'état in which the army overthrew the civilian government of Aung San Suu Kyi, arrested the democratically elected leaders and imposed an authoritarian regime. Faced with the bloody repression of peaceful demonstrations, the population rose up and formed armed groups, giving rise to a widespread insurrection.",
@@ -259,16 +371,24 @@
               "title": "Rapport ONU 2024, Reuters",
               "url": "https://www.reuters.com/world/asia-pacific/myanmar-military-intensifies-civilian-killings-arrests-says-un-report-2024-09-17/"
             }
+          ],
+          "statistiques":[
+            {
+              "deplace": "3 500 000"
+            },
+            {
+              "morts": "9 000"
+            }
           ]
         }
       ],
       "drc": [
         {
           "pays": "drc",
-          "titre": "Les Cris de Democratic Republic of Congo",
+          "titre": "L'Enfance Volée",
           "src": "/affiches/rdc.webp",
-          "youtube": "",
-          "dates": "Since 2012",
+          "vimeo": "",
+          "dates": "04/04/2012",
           "bilan_morts": "Over 7 million displaced",
           "disponible": "",
           "paragraphes": {
@@ -289,6 +409,14 @@
             {
               "title": "In the DRC, M23 rebels continue their rapid advance, Mediapart",
               "url": "https://www.mediapart.fr/journal/international/160225/en-rdc-les-rebelles-du-m23-poursuivent-leur-avancee-fulgurante"
+            }
+          ],
+          "statistiques":[
+            {
+              "deplace": "+ 7 000 000"
+            },
+            {
+              "morts": "9 000"
             }
           ]
         }

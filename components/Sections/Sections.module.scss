@@ -28,11 +28,12 @@
     width: 100%;
     font-weight: 700;
     font-size: 3rem;
-    font-size: clamp(3rem, 1.6705202312138727rem + 3.6994219653179194vw, 5rem);
+    font-size: clamp(2rem, 1.6705202312138727rem + 3.6994219653179194vw, 3rem);
     letter-spacing: 0.3rem;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
+    margin-bottom: 2rem;
   }
 }
 

@@ -61,7 +61,7 @@ export function Content({ data, lang }: contentProps) {
           />
         </div>
 
-        {/* <iframe
+        <iframe
           width="100%"
           height="500"
           src={`${data.youtube}`}
@@ -70,9 +70,9 @@ export function Content({ data, lang }: contentProps) {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
-        ></iframe> */}
+        ></iframe>
 
-        <div style={{ width: "100%", height: "500px" }}>
+        {/* <div style={{ width: "100%", height: "500px" }}>
           <iframe
             src={`${data.vimeo}`}
             frameBorder="0"
@@ -81,7 +81,7 @@ export function Content({ data, lang }: contentProps) {
             title={`${data.titre} - Bande annonce officielle`}
           ></iframe>
         </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
+        <script src="https://player.vimeo.com/api/player.js"></script> */}
 
         <div className={clsx(css["stats-container"])}>
           <div className={clsx(css["stat"])}>

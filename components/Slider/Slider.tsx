@@ -18,7 +18,9 @@ export function Slider({ lang }: sliderProps) {
   // Filter only valid keys (remove about/à propos, yemen, rdc)
   const conflictKeys = Object.keys(langData).filter(
     (key) =>
-      !["about", "à propos", "rdc", "yemen", "drc"].includes(key.toLowerCase())
+      !["about", "à propos", "rdc", "birmanie", "drc"].includes(
+        key.toLowerCase()
+      )
   );
 
   console.log("langData", langData);

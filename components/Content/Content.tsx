@@ -57,6 +57,7 @@ export function Content({ data, lang }: contentProps) {
             src={`${data.src}`}
             alt={`Affiche du film ${data.titre}`}
             fill
+            priority
             className={clsx(css["poster-image"])}
           />
         </div>

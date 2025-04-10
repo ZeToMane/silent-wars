@@ -58,6 +58,20 @@
             {
               "morts": "+ 15 000"
             }
+          ],
+          "dons": [
+            {
+              "title": "Médecins Sans Frontières",
+              "url": "https://msf.lu/soudan?"
+            },
+            {
+              "title": "L'Agence des Nations Unies pour les réfugiés",
+              "url": "https://donner.unhcr.org/fr/fr-fr/urgence-soudan?"
+            },
+            {
+              "title": "Acted",
+              "url": "https://www.acted.org/fr/pays/soudan/?"
+            }
           ]
         }
       ],
@@ -97,6 +111,16 @@
             },
             {
               "morts": "377 000"
+            }
+          ],
+          "dons": [
+            {
+              "title": "CARE",
+              "url": "https://www.carefrance.org/pays/aide-humanitaire-yemen/?"
+            },
+            {
+              "title": "Action contre la Faim",
+              "url": "https://www.actioncontrelafaim.org/missions/yemen/?"
             }
           ]
         }
@@ -144,6 +168,16 @@
             {
               "morts": "+ 6 000"
             }
+          ],
+          "dons": [
+            {
+              "title": "Plan International France",
+              "url": "https://www.plan-international.fr/pays/cameroun/"
+            },
+            {
+              "title": "SOLIDARITÉS INTERNATIONAL",
+              "url": "https://www.solidarites.org/fr/missions/cameroun/"
+            }
           ]
         }
       ],
@@ -187,6 +221,16 @@
             {
               "morts": "9 000"
             }
+          ],
+          "dons": [
+            {
+              "title": "L'Agence des Nations Unies pour les réfugiés",
+              "url": "https://donate.unhcr.org/int/en/myanmar-situation"
+            },
+            {
+              "title": "The International Rescue Committee",
+              "url": "https://www.rescue.org/country/myanmar?"
+            }
           ]
         }
       ],
@@ -229,6 +273,16 @@
             },
             {
               "morts": "9 000"
+            }
+          ],
+          "dons": [
+            {
+              "title": "CARE",
+              "url": "https://www.carefrance.org/pays/aide-humanitaire-congo/"
+            },
+            {
+              "title": "Médecins du Monde",
+              "url": "https://www.medecinsdumonde.org/pays/afrique/republique-democratique-du-congo/"
             }
           ]
         }
@@ -294,6 +348,20 @@
             {
               "morts": "+ 15 000"
             }
+          ],
+          "dons": [
+            {
+              "title": "Doctors Without Borders",
+              "url": "https://msf.lu/soudan?"
+            },
+            {
+              "title": "The UN Refugee Agency",
+              "url": "https://donner.unhcr.org/fr/fr-fr/urgence-soudan?"
+            },
+            {
+              "title": "Acted (Humanitarian NGO)",
+              "url": "https://www.acted.org/fr/pays/soudan/?"
+            }
           ]
         }
       ],
@@ -333,6 +401,16 @@
             },
             {
               "morts": "377 000"
+            }
+          ],
+          "dons": [
+            {
+              "title": "CARE",
+              "url": "https://www.carefrance.org/pays/aide-humanitaire-yemen/?"
+            },
+            {
+              "title": "Action Against Hunger",
+              "url": "https://www.actioncontrelafaim.org/missions/yemen/?"
             }
           ]
         }
@@ -380,6 +458,16 @@
             {
               "morts": "+ 6 000"
             }
+          ],
+          "dons": [
+            {
+              "title": "Plan International France",
+              "url": "https://www.plan-international.fr/pays/cameroun/"
+            },
+            {
+              "title": "SOLIDARITÉS INTERNATIONAL",
+              "url": "https://www.solidarites.org/fr/missions/cameroun/"
+            }
           ]
         }
       ],
@@ -423,6 +511,16 @@
             {
               "morts": "9 000"
             }
+          ],
+          "dons": [
+            {
+              "title": "The UN Refugee Agency",
+              "url": "https://donate.unhcr.org/int/en/myanmar-situation"
+            },
+            {
+              "title": "International Rescue Committee",
+              "url": "https://www.rescue.org/country/myanmar?"
+            }
           ]
         }
       ],
@@ -465,6 +563,16 @@
             },
             {
               "morts": "9 000"
+            }
+          ],
+          "dons": [
+            {
+              "title": "CARE",
+              "url": "https://www.carefrance.org/pays/aide-humanitaire-congo/"
+            },
+            {
+              "title": "Médecins du Monde",
+              "url": "https://www.medecinsdumonde.org/pays/afrique/republique-democratique-du-congo/"
             }
           ]
         }

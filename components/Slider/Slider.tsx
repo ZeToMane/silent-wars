@@ -46,6 +46,7 @@ export function Slider({ lang }: sliderProps) {
               src={item.src}
               alt={`Affiche du film ${item.titre}`}
               fill
+              priority
               className={imgClass}
             />
           );

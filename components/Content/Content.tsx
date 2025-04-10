@@ -124,6 +124,29 @@ export function Content({ data, lang }: contentProps) {
           )}
         </div>
 
+        {lang == "fr" ? <h2>DONS</h2> : <h2>DONATIONS</h2>}
+        <div className={clsx(css["text"])}>
+          {data.dons && data.dons.length > 0 && (
+            <>
+              <ul>
+                {data.dons.map(
+                  (don: { title: string; url: string }, index: number) => (
+                    <li key={index}>
+                      <a
+                        href={don.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {don.title}
+                      </a>
+                    </li>
+                  )
+                )}
+              </ul>
+            </>
+          )}
+        </div>
+
         <h2>SOURCES</h2>
         <div className={clsx(css["text"])}>
           {data.sources && data.sources.length > 0 && (

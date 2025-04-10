@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Image from "next/image";
 import Link from "next/link";
 import "./globals.scss";
 
@@ -86,16 +87,34 @@ export default function RootLayout({
               href="https://www.instagram.com/silentwars_org?igsh=M2JibnBqbnk5a210"
               target="_blank"
             >
-              Instagram
+              <Image
+                width={50}
+                height={50}
+                src="/insta.png"
+                alt="instagram"
+                className={css.logo}
+              />
             </a>
             <a href="https://x.com/silentwarsorg" target="_blank">
-              X
+              <Image
+                width={50}
+                height={50}
+                src="/x.png"
+                alt="x"
+                className={css.logo2}
+              />
             </a>
             <a
               href="https://bsky.app/profile/silentwars.bsky.social"
               target="_blank"
             >
-              Bluesky
+              <Image
+                width={50}
+                height={50}
+                src="/bluesky-social.webp"
+                alt="bluesky-social"
+                className={css.logo}
+              />
             </a>
           </div>
         </div>

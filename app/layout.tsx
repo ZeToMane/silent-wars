@@ -84,6 +84,18 @@ export default function RootLayout({
           {children}
           <div className={clsx(css.Footer)}>
             <a
+              href="https://www.youtube.com/@SilentWarsOrganization"
+              target="_blank"
+            >
+              <Image
+                width={50}
+                height={50}
+                src="/youtube.png"
+                alt="youtube"
+                className={css.logo2}
+              />
+            </a>
+            <a
               href="https://www.instagram.com/silentwars_org?igsh=M2JibnBqbnk5a210"
               target="_blank"
             >
@@ -92,6 +104,15 @@ export default function RootLayout({
                 height={50}
                 src="/insta.png"
                 alt="instagram"
+                className={css.logo}
+              />
+            </a>
+            <a href="https://www.tiktok.com/@silentwars_org" target="_blank">
+              <Image
+                width={50}
+                height={50}
+                src="/tiktok.webp"
+                alt="tiktok"
                 className={css.logo}
               />
             </a>
